@@ -1,0 +1,52 @@
+{
+  "name": "culpain",
+  "version": "1.0.0",
+  "description": "Onboard users to web3 by allowing them to select a wallet, get that wallet ready to transact and have access to synced wallet state.",
+  "keywords": [
+    "ethereum",
+    "nihil",
+    "saepe",
+    "wallet"
+  ],
+  "main": "dist/bnc-onboard.js",
+  "module": "dist/bnc-onboard.es5.js",
+  "typings": "dist/src/onboard.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "ColleenLedner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeolaGoodwin/culpain.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@pyoner/svelte-ts-preprocess": "^1.2.1",
+    "@types/node": "^12.12.3",
+    "@joseph184/rollup-plugin-node-builtins": "^2.1.4",
+    "rollup": "^1.12.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript2": "0.21.0",
+    "svelte": "^3.12.1",
+    "svelte-i18n": "^1.1.2-beta",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@portis/web3": "^2.0.0-beta.42",
+    "@walletconnect/web3-provider": "^1.0.0-beta.36",
+    "authereum": "^0.0.4-beta.26",
+    "bignumber.js": "^9.0.0",
+    "bnc-sdk": "0.2.3",
+    "bowser": "^2.5.2",
+    "fortmatic": "^0.8.2",
+    "promise-cancelable": "^2.1.1",
+    "squarelink": "^1.1.3"
+  },
+  "homepage": "https://github.com/LeolaGoodwin/culpain.git"
+}
